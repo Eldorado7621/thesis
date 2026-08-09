@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'mul_48s_50ns_97_3_1' is changed to 'mul_48s_50ns_97_3_1_x' due to conflict." projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:31.881+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:31.776+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'mul_32s_32s_48_5_1' is changed to 'mul_32s_32s_48_5_1_x' due to conflict." projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:29.773+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'sitofp_32ns_32_7_no_dsp_1' is changed to 'sitofp_32ns_32_7_no_dsp_1_x' due to conflict." projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:29.737+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1016] The critical path in module 'rrt' consists of the following:&#x9;'sitofp' operation ('conv_i_i', new_fixedpoint2205/main.cpp:321) [86]  (6.31 ns)&#xA;&#xA;&#xA;Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-1016.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:27.244+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-871] Estimated clock period (6.312ns) exceeds the target (target clock period: 6.75ns, clock uncertainty: 1.8225ns, effective delay budget: 4.9275ns).&#xA;Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-871.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:27.242+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'rrt_Pipeline_VITIS_LOOP_47_12' (loop 'VITIS_LOOP_47_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('q_write_ln47', new_fixedpoint2205/fixedpt.h:47) of variable 'q', new_fixedpoint2205/fixedpt.h:50 on local variable 'q' and 'load' operation ('q_load', new_fixedpoint2205/fixedpt.h:49) on local variable 'q'.&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-880.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:26.959+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1016] The critical path in module 'Nearhw' consists of the following:&#x9;wire read operation ('p_read_2') on port 'p_read' [15]  (0 ns)&#xA;&#x9;'sitofp' operation ('conv_i_i') [16]  (6.31 ns)&#xA;&#xA;&#xA;Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-1016.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:26.626+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-871] Estimated clock period (6.312ns) exceeds the target (target clock period: 6.75ns, clock uncertainty: 1.8225ns, effective delay budget: 4.9275ns).&#xA;Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-871.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:26.623+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1016] The critical path in module 'rrt_Pipeline_VITIS_LOOP_112_1' consists of the following:&#x9;'alloca' operation ('i') [7]  (0 ns)&#xA;&#x9;'load' operation ('i', new_fixedpoint2205/main.cpp:112->new_fixedpoint2205/main.cpp:380) on local variable 'i' [16]  (0 ns)&#xA;&#x9;'sitofp' operation ('d', new_fixedpoint2205/main.cpp:114->new_fixedpoint2205/main.cpp:380) [26]  (6.31 ns)&#xA;&#xA;&#xA;Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-1016.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:25.751+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-871] Estimated clock period (6.312ns) exceeds the target (target clock period: 6.75ns, clock uncertainty: 1.8225ns, effective delay budget: 4.9275ns).&#xA;Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-871.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:25.748+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1016] The critical path in module 'Collision_detectedhw' consists of the following:&#x9;wire read operation ('x') on port 'p_read' [6]  (0 ns)&#xA;&#x9;'sitofp' operation ('conv_i') [7]  (6.31 ns)&#xA;&#xA;&#xA;Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-1016.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:24.916+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-871] Estimated clock period (6.312ns) exceeds the target (target clock period: 6.75ns, clock uncertainty: 1.8225ns, effective delay budget: 4.9275ns).&#xA;Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-871.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:24.913+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'rrt_Pipeline_VITIS_LOOP_47_1' (loop 'VITIS_LOOP_47_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('q_1_write_ln47', new_fixedpoint2205/fixedpt.h:47->new_fixedpoint2205/main.cpp:370) of variable 'q', new_fixedpoint2205/fixedpt.h:50->new_fixedpoint2205/main.cpp:370 on local variable 'q' and 'load' operation ('q_1_load', new_fixedpoint2205/fixedpt.h:49->new_fixedpoint2205/main.cpp:370) on local variable 'q'.&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-880.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:24.604+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1016] The critical path in module 'rrt_Pipeline_VITIS_LOOP_342_1' consists of the following:&#x9;'sitofp' operation ('conv_i_i_i', new_fixedpoint2205/Aux_Lib_hw.hpp:27) [70]  (6.31 ns)&#xA;&#xA;&#xA;Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-1016.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:24.147+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-871] Estimated clock period (6.312ns) exceeds the target (target clock period: 6.75ns, clock uncertainty: 1.8225ns, effective delay budget: 4.9275ns).&#xA;Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-871.html" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:24.144+0200" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name '__hls_fptosi_float_i32' to 'p_hls_fptosi_float_i32'." projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:23.796+0200" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'FloatToFixed&lt;16ul>' to 'FloatToFixed_16ul_s'." projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:23.780+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5287] unused parameter 'i' (new_fixedpoint2205/main.cpp:38:93)" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:17.113+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5287] unused parameter 'i' (new_fixedpoint2205/Aux_Lib_hw.hpp:101:62)" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:17.111+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5287] unused parameter 'nn' (new_fixedpoint2205/Aux_Lib_hw.hpp:101:55)" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:17.109+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5287] unused parameter 'i' (new_fixedpoint2205/Aux_Lib_hw.hpp:68:53)" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:17.108+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5287] unused parameter 'nn' (new_fixedpoint2205/Aux_Lib_hw.hpp:68:46)" projectName="new_fixedpoint2205" solutionName="solution1" date="2023-05-30T11:08:17.105+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

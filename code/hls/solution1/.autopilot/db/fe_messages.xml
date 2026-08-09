@@ -1,0 +1,372 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-5287" msg_severity="WARNING" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:68:46" msg_body="unused parameter 'nn'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5287" msg_severity="WARNING" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:68:53" msg_body="unused parameter 'i'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5287" msg_severity="WARNING" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:101:55" msg_body="unused parameter 'nn'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5287" msg_severity="WARNING" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:101:62" msg_body="unused parameter 'i'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5287" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:38:93" msg_body="unused parameter 'i'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_int_ref.h:718:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_int_ref.h:732:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_int_ref.h:746:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:122:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_user_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:126:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_id_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:130:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_dest_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:160:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_strb_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:164:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_user_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:168:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_id_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:172:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_dest_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:178:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:182:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_keep" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:186:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_last" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:191:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:195:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_keep" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:199:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_last" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:203:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="keep_all" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:209:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:213:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:217:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:222:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:227:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:231:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:266:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:273:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:281:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:291:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:302:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:312:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:327:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:363:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:370:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:378:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:388:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:399:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:409:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:425:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:183:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=rrt" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:185:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis register both port=dataInStream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:186:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=xrandx bundle=CTRL_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:187:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=xrandy bundle=CTRL_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:188:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=N bundle=CTRL_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:190:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=oup bundle=CTRL_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:191:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=Squared_r_n bundle=CTRL_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:192:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=Squared_R_Robot bundle=CTRL_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:194:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis register both port=XNearStream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:195:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=CTRL_BUS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="new_fixedpoint2205/main.cpp:344:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rrt" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:45:0" msg_body="Inlining function 'Point_2hw::Point_2hw()' into 'Segment_3hw::Segment_3hw()'">
+        <args Callee="Point_2hw::Point_2hw()" Caller="Segment_3hw::Segment_3hw()"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::fp_struct(double)' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;double&gt;::fp_struct(double)" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::mantissa() const' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;double&gt;::mantissa() const" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::expv() const' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;double&gt;::expv() const" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::__signbit() const' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;double&gt;::__signbit() const" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:116:0" msg_body="Inlining function 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)' into 'int generic_cast_IEEE754&lt;int, double&gt;(double, bool)'">
+        <args Callee="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)" Caller="int generic_cast_IEEE754&lt;int, double&gt;(double, bool)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp:55:0" msg_body="Inlining function 'int generic_cast_IEEE754&lt;int, double&gt;(double, bool)' into '__hls_fptosi_double_i32'">
+        <args Callee="int generic_cast_IEEE754&lt;int, double&gt;(double, bool)" Caller="__hls_fptosi_double_i32"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/fixedpt.h:6:0" msg_body="Inlining function '__hls_fptosi_double_i32' into 'int FloatToFixed&lt;16ul&gt;(float)'">
+        <args Callee="__hls_fptosi_double_i32" Caller="int FloatToFixed&lt;16ul&gt;(float)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/RRT_Star_hw.hpp:13:0" msg_body="Inlining function 'int FloatToFixed&lt;16ul&gt;(float)' into 'Position_Holonomic_hw::Position_Holonomic_hw() (.177)'">
+        <args Callee="int FloatToFixed&lt;16ul&gt;(float)" Caller="Position_Holonomic_hw::Position_Holonomic_hw() (.177)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/RRT_Star_hw.hpp:85:0" msg_body="Inlining function 'Position_Holonomic_hw::Position_Holonomic_hw() (.177)' into 'Node_RRT_Poshw::Node_RRT_Poshw() (.169.174)'">
+        <args Callee="Position_Holonomic_hw::Position_Holonomic_hw() (.177)" Caller="Node_RRT_Poshw::Node_RRT_Poshw() (.169.174)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/RRT_Star_hw.hpp:85:0" msg_body="Inlining function 'int FloatToFixed&lt;16ul&gt;(float)' into 'Node_RRT_Poshw::Node_RRT_Poshw() (.169.174)'">
+        <args Callee="int FloatToFixed&lt;16ul&gt;(float)" Caller="Node_RRT_Poshw::Node_RRT_Poshw() (.169.174)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/RRT_Star_hw.hpp:66:0" msg_body="Inlining function 'Position_Holonomic_hw::Position_Holonomic_hw() (.177)' into 'Node_Randhw::Node_Randhw()'">
+        <args Callee="Position_Holonomic_hw::Position_Holonomic_hw() (.177)" Caller="Node_Randhw::Node_Randhw()"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/RRT_Star_hw.hpp:13:0" msg_body="Inlining function 'int FloatToFixed&lt;16ul&gt;(float)' into 'Position_Holonomic_hw::Position_Holonomic_hw()'">
+        <args Callee="int FloatToFixed&lt;16ul&gt;(float)" Caller="Position_Holonomic_hw::Position_Holonomic_hw()"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/RRT_Star_hw.hpp:85:0" msg_body="Inlining function 'Position_Holonomic_hw::Position_Holonomic_hw()' into 'Node_RRT_Poshw::Node_RRT_Poshw()'">
+        <args Callee="Position_Holonomic_hw::Position_Holonomic_hw()" Caller="Node_RRT_Poshw::Node_RRT_Poshw()"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/RRT_Star_hw.hpp:85:0" msg_body="Inlining function 'int FloatToFixed&lt;16ul&gt;(float)' into 'Node_RRT_Poshw::Node_RRT_Poshw()'">
+        <args Callee="int FloatToFixed&lt;16ul&gt;(float)" Caller="Node_RRT_Poshw::Node_RRT_Poshw()"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::fp_struct(float)' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;float&gt;::fp_struct(float)" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::mantissa() const' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;float&gt;::mantissa() const" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::expv() const' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;float&gt;::expv() const" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::__signbit() const' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
+        <args Callee="fp_struct&lt;float&gt;::__signbit() const" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:116:0" msg_body="Inlining function 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)' into 'int generic_cast_IEEE754&lt;int, float&gt;(float, bool)'">
+        <args Callee="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)" Caller="int generic_cast_IEEE754&lt;int, float&gt;(float, bool)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2021.2/rdi_builds/continuous/2021_10_19_3367213/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp:51:0" msg_body="Inlining function 'int generic_cast_IEEE754&lt;int, float&gt;(float, bool)' into '__hls_fptosi_float_i32'">
+        <args Callee="int generic_cast_IEEE754&lt;int, float&gt;(float, bool)" Caller="__hls_fptosi_float_i32"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:34:0" msg_body="Inlining function 'Point_2hw::x() const (.155)' into 'Point_2hw::squared_distance(Point_2hw&amp;)'">
+        <args Callee="Point_2hw::x() const (.155)" Caller="Point_2hw::squared_distance(Point_2hw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:34:0" msg_body="Inlining function '__hls_fptosi_float_i32' into 'Point_2hw::squared_distance(Point_2hw&amp;)'">
+        <args Callee="__hls_fptosi_float_i32" Caller="Point_2hw::squared_distance(Point_2hw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:34:0" msg_body="Inlining function 'fp_mult(int, int)' into 'Point_2hw::squared_distance(Point_2hw&amp;)'">
+        <args Callee="fp_mult(int, int)" Caller="Point_2hw::squared_distance(Point_2hw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:34:0" msg_body="Inlining function 'Point_2hw::y() const (.152)' into 'Point_2hw::squared_distance(Point_2hw&amp;)'">
+        <args Callee="Point_2hw::y() const (.152)" Caller="Point_2hw::squared_distance(Point_2hw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:21:0" msg_body="Inlining function 'Point_2hw::Point_2hw(int, int)' into 'Cal_Squared_Disthw(Node_Randhw&amp;, Node_RRT_Poshw&amp;)'">
+        <args Callee="Point_2hw::Point_2hw(int, int)" Caller="Cal_Squared_Disthw(Node_Randhw&amp;, Node_RRT_Poshw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:21:0" msg_body="Inlining function 'Point_2hw::squared_distance(Point_2hw&amp;)' into 'Cal_Squared_Disthw(Node_Randhw&amp;, Node_RRT_Poshw&amp;)'">
+        <args Callee="Point_2hw::squared_distance(Point_2hw&amp;)" Caller="Cal_Squared_Disthw(Node_Randhw&amp;, Node_RRT_Poshw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:8:0" msg_body="Inlining function 'Point_2hw::Point_2hw(int, int)' into 'Cal_Disthw(Node_RRT_Poshw&amp;, Node_Randhw&amp;)'">
+        <args Callee="Point_2hw::Point_2hw(int, int)" Caller="Cal_Disthw(Node_RRT_Poshw&amp;, Node_Randhw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:8:0" msg_body="Inlining function 'Point_2hw::squared_distance(Point_2hw&amp;)' into 'Cal_Disthw(Node_RRT_Poshw&amp;, Node_Randhw&amp;)'">
+        <args Callee="Point_2hw::squared_distance(Point_2hw&amp;)" Caller="Cal_Disthw(Node_RRT_Poshw&amp;, Node_Randhw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:8:0" msg_body="Inlining function 'fp_sqrtt(int)' into 'Cal_Disthw(Node_RRT_Poshw&amp;, Node_Randhw&amp;)'">
+        <args Callee="fp_sqrtt(int)" Caller="Cal_Disthw(Node_RRT_Poshw&amp;, Node_Randhw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:39:0" msg_body="Inlining function 'Node_RRT_Poshw::Node_RRT_Poshw() (.169.174)' into 'A_StreamReaderhw(Node_RRT_Poshw&amp;, Node_Randhw&amp;, int)'">
+        <args Callee="Node_RRT_Poshw::Node_RRT_Poshw() (.169.174)" Caller="A_StreamReaderhw(Node_RRT_Poshw&amp;, Node_Randhw&amp;, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:39:0" msg_body="Inlining function 'int FloatToFixed&lt;16ul&gt;(float)' into 'A_StreamReaderhw(Node_RRT_Poshw&amp;, Node_Randhw&amp;, int)'">
+        <args Callee="int FloatToFixed&lt;16ul&gt;(float)" Caller="A_StreamReaderhw(Node_RRT_Poshw&amp;, Node_Randhw&amp;, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:39:0" msg_body="Inlining function 'fp_div(int, int)' into 'A_StreamReaderhw(Node_RRT_Poshw&amp;, Node_Randhw&amp;, int)'">
+        <args Callee="fp_div(int, int)" Caller="A_StreamReaderhw(Node_RRT_Poshw&amp;, Node_Randhw&amp;, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:39:0" msg_body="Inlining function 'Position_Holonomic_hw::Insert_Position(int, int)' into 'A_StreamReaderhw(Node_RRT_Poshw&amp;, Node_Randhw&amp;, int)'">
+        <args Callee="Position_Holonomic_hw::Insert_Position(int, int)" Caller="A_StreamReaderhw(Node_RRT_Poshw&amp;, Node_Randhw&amp;, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:39:0" msg_body="Inlining function 'fp_mult(int, int)' into 'A_StreamReaderhw(Node_RRT_Poshw&amp;, Node_Randhw&amp;, int)'">
+        <args Callee="fp_mult(int, int)" Caller="A_StreamReaderhw(Node_RRT_Poshw&amp;, Node_Randhw&amp;, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:39:0" msg_body="Inlining function 'fp_mult(int, int)' into 'Point_2hw::squared_distance(int, int)'">
+        <args Callee="fp_mult(int, int)" Caller="Point_2hw::squared_distance(int, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:102:0" msg_body="Inlining function 'Point_2hw::x() const' into 'Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)'">
+        <args Callee="Point_2hw::x() const" Caller="Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:102:0" msg_body="Inlining function 'fp_mult(int, int)' into 'Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)'">
+        <args Callee="fp_mult(int, int)" Caller="Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:102:0" msg_body="Inlining function 'Point_2hw::y() const' into 'Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)'">
+        <args Callee="Point_2hw::y() const" Caller="Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:102:0" msg_body="Inlining function 'fp_div(int, int)' into 'Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)'">
+        <args Callee="fp_div(int, int)" Caller="Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/Aux_Lib_hw.hpp:102:0" msg_body="Inlining function 'Point_2hw::squared_distance(int, int)' into 'Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)'">
+        <args Callee="Point_2hw::squared_distance(int, int)" Caller="Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:78:0" msg_body="Inlining function 'Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)' into 'Collision_detectedhw(int&amp;, int&amp;, int, Segment_3hw*, int)'">
+        <args Callee="Segment_3hw::squared_distance(int&amp;, int&amp;, int, int)" Caller="Collision_detectedhw(int&amp;, int&amp;, int, Segment_3hw*, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:100:0" msg_body="Inlining function 'Position_Holonomic_hw::Position_Holonomic_hw()' into 'Obstacle_Freehw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;, int, Segment_3hw*, int)'">
+        <args Callee="Position_Holonomic_hw::Position_Holonomic_hw()" Caller="Obstacle_Freehw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;, int, Segment_3hw*, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:100:0" msg_body="Inlining function 'int FloatToFixed&lt;16ul&gt;(float)' into 'Obstacle_Freehw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;, int, Segment_3hw*, int)'">
+        <args Callee="int FloatToFixed&lt;16ul&gt;(float)" Caller="Obstacle_Freehw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;, int, Segment_3hw*, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:100:0" msg_body="Inlining function 'fp_div(int, int)' into 'Obstacle_Freehw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;, int, Segment_3hw*, int)'">
+        <args Callee="fp_div(int, int)" Caller="Obstacle_Freehw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;, int, Segment_3hw*, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:100:0" msg_body="Inlining function 'fp_mult(int, int)' into 'Obstacle_Freehw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;, int, Segment_3hw*, int)'">
+        <args Callee="fp_mult(int, int)" Caller="Obstacle_Freehw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;, int, Segment_3hw*, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:31:0" msg_body="Inlining function 'Point_2hw::Point_2hw(int, int)' into 'Cal_Squared_Disthw(Node_RRT_Poshw&amp;, Node_RRT_Poshw&amp;)'">
+        <args Callee="Point_2hw::Point_2hw(int, int)" Caller="Cal_Squared_Disthw(Node_RRT_Poshw&amp;, Node_RRT_Poshw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:31:0" msg_body="Inlining function 'Point_2hw::squared_distance(Point_2hw&amp;)' into 'Cal_Squared_Disthw(Node_RRT_Poshw&amp;, Node_RRT_Poshw&amp;)'">
+        <args Callee="Point_2hw::squared_distance(Point_2hw&amp;)" Caller="Cal_Squared_Disthw(Node_RRT_Poshw&amp;, Node_RRT_Poshw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:136:0" msg_body="Inlining function 'Cal_Squared_Disthw(Node_RRT_Poshw&amp;, Node_RRT_Poshw&amp;)' into 'Nearhw(int*, Node_RRT_Poshw*, Node_RRT_Poshw&amp;, int, int, int&amp;)'">
+        <args Callee="Cal_Squared_Disthw(Node_RRT_Poshw&amp;, Node_RRT_Poshw&amp;)" Caller="Nearhw(int*, Node_RRT_Poshw*, Node_RRT_Poshw&amp;, int, int, int&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:157:0" msg_body="Inlining function 'fp_mult(int, int)' into 'Costhw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;)'">
+        <args Callee="fp_mult(int, int)" Caller="Costhw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:157:0" msg_body="Inlining function 'fp_sqrtt(int)' into 'Costhw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;)'">
+        <args Callee="fp_sqrtt(int)" Caller="Costhw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:182:0" msg_body="Inlining function 'Segment_3hw::Segment_3hw()' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="Segment_3hw::Segment_3hw()" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:182:0" msg_body="Inlining function 'Node_RRT_Poshw::Node_RRT_Poshw() (.169.174)' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="Node_RRT_Poshw::Node_RRT_Poshw() (.169.174)" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:182:0" msg_body="Inlining function 'Node_Randhw::Node_Randhw()' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="Node_Randhw::Node_Randhw()" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:182:0" msg_body="Inlining function 'Node_RRT_Poshw::Node_RRT_Poshw()' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="Node_RRT_Poshw::Node_RRT_Poshw()" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:182:0" msg_body="Inlining function 'Cal_Squared_Disthw(Node_Randhw&amp;, Node_RRT_Poshw&amp;)' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="Cal_Squared_Disthw(Node_Randhw&amp;, Node_RRT_Poshw&amp;)" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:182:0" msg_body="Inlining function 'float FixedToFloat&lt;16ul&gt;(int)' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="float FixedToFloat&lt;16ul&gt;(int)" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="new_fixedpoint2205/main.cpp:182:0" msg_body="Inlining function 'Costhw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;)' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="Costhw(Position_Holonomic_hw&amp;, Position_Holonomic_hw&amp;)" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:293:5" msg_body="Inlining function '_llvm.fpga.unpack.none.s_struct.ap_int&lt;64&gt;s.i64' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.unpack.none.s_struct.ap_int&lt;64&gt;s.i64" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:304:5" msg_body="Inlining function '_llvm.fpga.pack.none.i6.s_struct.ap_uint&lt;6&gt;s' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.pack.none.i6.s_struct.ap_uint&lt;6&gt;s" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:304:5" msg_body="Inlining function '_llvm.fpga.pack.none.i5.s_struct.ap_uint&lt;5&gt;s' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.pack.none.i5.s_struct.ap_uint&lt;5&gt;s" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:304:5" msg_body="Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint&lt;1&gt;s' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.pack.none.i1.s_struct.ap_uint&lt;1&gt;s" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:304:5" msg_body="Inlining function '_llvm.fpga.pack.none.i2.s_struct.ap_uint&lt;2&gt;s' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.pack.none.i2.s_struct.ap_uint&lt;2&gt;s" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:304:5" msg_body="Inlining function '_llvm.fpga.pack.none.i4.s_struct.ap_uint&lt;4&gt;s' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.pack.none.i4.s_struct.ap_uint&lt;4&gt;s" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:304:5" msg_body="Inlining function '_llvm.fpga.pack.none.i32.s_struct.ap_int&lt;32&gt;s' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.pack.none.i32.s_struct.ap_int&lt;32&gt;s" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:293:5" msg_body="Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint&lt;8&gt;s.i8' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.unpack.none.s_struct.ap_uint&lt;8&gt;s.i8" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:293:5" msg_body="Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint&lt;2&gt;s.i2' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.unpack.none.s_struct.ap_uint&lt;2&gt;s.i2" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:293:5" msg_body="Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint&lt;1&gt;s.i1' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.unpack.none.s_struct.ap_uint&lt;1&gt;s.i1" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:293:5" msg_body="Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint&lt;5&gt;s.i5' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.unpack.none.s_struct.ap_uint&lt;5&gt;s.i5" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2021.2/common/technology/autopilot/ap_axi_sdata.h:293:5" msg_body="Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint&lt;6&gt;s.i6' into 'rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.unpack.none.s_struct.ap_uint&lt;6&gt;s.i6" Caller="rrt(hls::stream&lt;hls::axis&lt;ap_int&lt;64&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;, float, float, int, float*, float, float, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul&gt;, 0&gt;&amp;)"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

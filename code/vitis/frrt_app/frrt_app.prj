@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="frrt_app" location="/home/sam/project/vitis/frrt_app" platform="/home/sam/project/vitis/frrt_pp/export/frrt_pp/frrt_pp.xpfm" platformUID="xilinx:zybo-z7-20::0.0(custom)" systemProject="frrt_app_system" sysConfig="frrt_pp" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" language="CPP" mssSignature="3f5a3efb66570a807a145fa04ed04e43">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.441756223" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.2114474408" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>
